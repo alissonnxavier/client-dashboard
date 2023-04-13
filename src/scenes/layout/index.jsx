@@ -16,7 +16,8 @@ const Layout = () => {
             <Sidebar 
                 isNonMobile={isNonMobile}
                 drawerWidth="250px"
-                isSidebarOpen={setIsSidebarOpen}
+                isSidebarOpen={isSidebarOpen}
+                setIsSidebarOpen={setIsSidebarOpen}
             />
 
             <Box>
